@@ -19,6 +19,6 @@ resource "aws_instance" "Ubuntu" {
   key_name      = "Laptop Keypair"
 
   tags = {
-    Name = "RHEL"
+    Name = "Ubuntu_Server"
   }
 }
