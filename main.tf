@@ -10,7 +10,7 @@ resource "aws_instance" "RHEL1" {
   tags = {
     Name = "RHEL"
   }
-
+}
 resource "aws_instance" "Ubuntu" {
 
   count         = 1
