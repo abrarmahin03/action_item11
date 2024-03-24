@@ -1,5 +1,3 @@
-  GNU nano 2.9.8                                    main.tf                                     Modified
-
 provider "aws" {
   region = "us-east-1"
 }
@@ -12,7 +10,6 @@ resource "aws_instance" "RHEL1" {
   tags = {
     Name = "RHEL"
   }
-}
 
 resource "aws_instance" "Ubuntu" {
 
